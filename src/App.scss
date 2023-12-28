@@ -1,0 +1,40 @@
+$background-color: #1E1E1B;
+$text-color: #F0F0F0;
+
+body {
+  background-color: $background-color;
+  color: $text-color;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.mainDiv{
+  display: flex;
+  margin: 30vh;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+select, input {
+  margin-right: 10px;
+  width: 65px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+
+  &:focus {
+    outline: none;
+}}
